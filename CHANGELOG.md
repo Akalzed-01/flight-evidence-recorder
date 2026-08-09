@@ -2,7 +2,7 @@
 
 ## 0.1.0 — 2026-08-08
 
-First planned public release.
+First public release.
 
 - Explicit capture of one process by absolute path.
 - Minimal environment, `shell=False`, closed stdin, and process-group termination.
