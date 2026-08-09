@@ -20,4 +20,4 @@ Do not attach real capsules to issues or pull requests. Redaction is best effort
 
 ## Reporting
 
-For a vulnerability, submit a private report through the security channel of the public repository after it is created. Until then, do not publish sensitive capsules or exploitable details.
+For a vulnerability, use GitHub's private vulnerability reporting channel for this repository when available. Do not open a public issue with exploit details, real capsules, tokens, or personal data. If private reporting is unavailable, contact the maintainer privately before disclosure.
