@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.venv/
+build/
+dist/
+*.egg-info/
+demo-capsule/
+attempt-*/
+capsule/
+*-capsule/
+*.capsule/
