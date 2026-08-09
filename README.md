@@ -4,7 +4,7 @@ A local flight recorder for development tasks.
 
 It turns an explicit attempt into an inspectable capsule containing the command, result, `stdout`/`stderr`, Git snapshots, hashes, redactions, and limitations. The goal is to preserve the operational history that is usually scattered across a terminal, a diff, CI, and an agent session.
 
-> Release name: `flight-evidence-recorder`. Confirm name availability on GitHub before creating the remote repository.
+> Public repository: [Akalzed-01/flight-evidence-recorder](https://github.com/Akalzed-01/flight-evidence-recorder)
 
 ## What v1 proves
 
