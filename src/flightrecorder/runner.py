@@ -72,6 +72,11 @@ def capture(argv: Sequence[str], *, config: CaptureConfig) -> CaptureResult:
         for name in config.policy.env_allowlist
         if name in os.environ
     }
+    # Windows needs SystemRoot to start some executables reliably when an
+    # explicit environment is supplied. Keep this OS-level value without
+    # inheriting the rest of the parent's environment.
+    if os.name == "nt" and os.environ.get("SystemRoot"):
+        env["SystemRoot"] = os.environ["SystemRoot"]
     redactor = Redactor(tuple(env.values()) + (str(Path.home()),))
     redacted_argv, argv_redactions = redactor.redact_argv(argv)
     manifest = {
