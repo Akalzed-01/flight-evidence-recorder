@@ -3,8 +3,7 @@ title: "Flight Evidence Recorder"
 message: "If this project helps your research or tooling, please cite it."
 type: software
 authors:
-  - family-names: Thiago
-    given-names: Thiago
+  - name: Thiago
 version: 0.1.0
 date-released: 2026-08-08
 license: MIT
